@@ -49,13 +49,13 @@ const ListContacts = () => {
   return (ready ? (
     <Container className="py-3">
       <Row className="justify-content-center">
-        <Col>
+        <Col md={7}>
           <Col className="text-center">
             <h2>List Contacts</h2>
           </Col>
-          <Row xs={1} md={2} lg={3} className="g-4">
-            {contacts.map((contact, index) => <Col key={index}><Contact contact={contact} /></Col>)}
-          </Row>
+          <Col>
+            {contacts.map((contact, index) => (<Col key={index}><Contact contact={contact} /></Col>))}
+          </Col>
         </Col>
       </Row>
     </Container>

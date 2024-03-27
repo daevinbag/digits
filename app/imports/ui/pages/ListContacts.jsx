@@ -53,10 +53,10 @@ const ListContacts = () => {
           <Col className="text-center">
             <h2>List Contacts</h2>
           </Col>
-          <Col>
-            {contacts.map((contact, index) => (<Col key={index}><Contact contact={contact} /></Col>))}
-          </Col>
         </Col>
+      </Row>
+      <Row>
+        {contacts.map((contact, index) => (<Col key={index}><Contact contact={contact} /></Col>))}
       </Row>
     </Container>
   ) : <LoadingSpinner />);

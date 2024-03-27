@@ -6,7 +6,7 @@ import { Card, Image } from 'react-bootstrap';
 const Contact = ({ contact }) => (
   <Card className="h-100">
     <Card.Header>
-      <Image> src={contact.image} width={75}</Image>
+      <Image src={contact.image} width={75} />
       <Card.Title>{contact.firstName} {contact.lastName}</Card.Title>
       <Card.Subtitle>{contact.address}</Card.Subtitle>
     </Card.Header>

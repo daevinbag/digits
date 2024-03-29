@@ -4,7 +4,7 @@ import { Calendar2CheckFill, FileEarmarkTextFill, PeopleFill } from 'react-boots
 
 /* A simple static component to render some text for the landing page. */
 const Landing = () => (
-  <Container id="landing-page" className="py-3">
+  <Container id="landing-page" className="py-3 text-center align-middle">
     <Row>
       <Col className="justify-content-center">
         <PeopleFill size="100" />

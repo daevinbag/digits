@@ -1,3 +1,5 @@
+# Digits
+
 ![](doc/landing.png)
 
 Digits is an application that allows users to:
